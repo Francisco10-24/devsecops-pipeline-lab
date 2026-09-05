@@ -13,7 +13,7 @@ provider "aws" {
 }
  
 resource "aws_s3_bucket" "site" {
-  bucket = "devsecops-lab-recinos-2026"
+  bucket = "devsecops-lab-rauda-2026"
   tags = {
     Proyecto = "DevSecOps-Lab3-4"
     Entorno  = "laboratorio"
